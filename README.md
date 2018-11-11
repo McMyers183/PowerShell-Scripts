@@ -1,5 +1,22 @@
+# Status - Not Useable 
+Currently making initial changes to convert [System.DirectoryServices]
+  - Updated Nov 11 2018 - Initial Edits
+
+# ToDo 
+  - [ ] Learn GitHub features & best practices 
+    - I welcome any tips & crash courses into the above 
+    - Versioning is Greek to me 
+  - [ ] Identify all AD module function to be replaced with .Net
+  - [ ] Add Modules directory & include generic connect/search functions
+  - [ ] Identify new functions to create
+  - [ ] Verify standard output formatting 
+    - Convert to PSObjects if possible 
+
 # PowerShell Scripts
 Please read the header descriptions and comments in each script body, some contain important instructions or warnings.
+This is my first time forking a repo on GitHub, original can be found at (https://github.com/AndrewEllis93/PowerShell-Scripts) and all compliments should be directed there. I've simply modified the code to use .net [system.directoryservices] due to restrictions I've met in the past. 
+Report status will be updated in Readme.md (useable/not useable/I broke it/etc).
+I welcome and tips as I'm far from a programmer & .net/PS expert (I just have a decent ability to tweak until something works).
 
 **ADHealthCheck:** This one is largely based on a script by Vikas Sukhija, who is credited in the body. I really only made some minor edits to his. Mine just adds a column that shows the last replication time and only emails if there is an unhealthy status or failure to cut down on email spam.
 
